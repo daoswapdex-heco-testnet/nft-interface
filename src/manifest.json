@@ -1,6 +1,6 @@
 {
-  "name": "Daoswap Manage",
-  "short_name": "Daoswap Manage",
+  "name": "NFT Interface",
+  "short_name": "NFT Interface",
   "display": "standalone",
   "start_url": "./?utm_source=homescreen",
   "theme_color": "#002140",

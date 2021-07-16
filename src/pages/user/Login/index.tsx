@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import ProForm from '@ant-design/pro-form';
 import { Link, history, SelectLang, useModel } from 'umi';
 import Footer from '@/components/Footer';
-import { initConnect } from "@/utils/web3";
+import { initConnect } from '@/utils/web3';
 
 import styles from './index.less';
 
@@ -51,7 +51,7 @@ const Login: React.FC = () => {
           <div className={styles.header}>
             <Link to="/">
               <img alt="logo" className={styles.logo} src="/logo.svg" />
-              <span className={styles.title}>Daoswap Manage</span>
+              <span className={styles.title}>NFT Interface</span>
             </Link>
           </div>
           <div className={styles.desc}></div>
@@ -75,8 +75,7 @@ const Login: React.FC = () => {
             onFinish={async () => {
               handleSubmit();
             }}
-          >
-          </ProForm>
+          ></ProForm>
         </div>
       </div>
       <Footer />
